@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+
+html, body, .intro {
+	height: 100%;
+}
+
+table td, table th {
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.card {
+	border-radius: .5rem;
+}
+
+.table-scroll {
+	border-radius: .5rem;
+}
+
+thead {
+	top: 0;
+	position: sticky;
+	color: #01b3a7;
+}
+
+.addbutton {
+	position: absolute;
+	top: 50px;
+	left: 16%;
+}
+
+.addbutton a {
+	text-decoration: none;
+	color: #333333;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+	padding: 5px 10px;
+	display: inline-block;
+	width: 150px;
+}
+
+.addbutton a:hover {
+	background-color: #BBBBBB;
+}
+
+input {
+	background-color: transparent;
+	color: #01b3a7;
+}
+
+.notification {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	border-radius: 5px;
+	z-index: 9999; /* Ensure it appears on top */
+	display: none; /* Initially hidden */
+}
+
+.custom-button-update {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 8px 12px;
+	background-color: #2196F3; /* Set the background color of the button */
+	color: #ffffff; /* Set the text color */
+	border: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.custom-button-update:hover {
+	background-color: #0d47a1; /* Change the background color on hover */
+}
+
+.custom-button-delete {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 8px 12px;
+	background-color: #dc3545; /* Set the background color of the button */
+	color: #ffffff; /* Set the text color */
+	border: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.custom-button-delete:hover {
+	background-color: #AA0000;
+}
