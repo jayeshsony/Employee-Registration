@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #f8f9fa;
+}
+
+.emplistlink {
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+
+.emplistlink a {
+	text-decoration: none;
+	color: #333333;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.emplistlink a:hover {
+	background-color: #BBBBBB;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-top: 5%;
+}
+
+.btn-primary, .btn-danger {
+	width: 400px;
+}
+
+.btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.btn-danger:hover {
+	background-color: #AA0000;
+	border-color: #AA0000;
+}
+
+.error-message, #passwordMismatchError, #invalidatePasswordError {
+	height: 10px;
+	color: red;
+}
+
+#message {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	border-radius: 5px;
+	z-index: 9999;
+	display: none;
+}
